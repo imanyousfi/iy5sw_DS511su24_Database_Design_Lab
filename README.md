@@ -50,13 +50,15 @@ Design Questions
 - Entering learning objectives for a course not offered by the School of Data Science
 - Assigning an invalid instructor to a course
 - Inactive Instructors cannot be assigned courses 
-- Inactive courses cannot be assigned to instrictors 
+- Inactive courses cannot be assigned to instructors 
 
 8) (5 PTS) Draw and submit a Relational Model for your project. For an example, see Beginning Database Design Solutions page 115 Figure 5-28.
 
 https://lucid.app/lucidchart/597d18c5-708d-453b-8dc7-6595992042b0/edit?viewport_loc=-1735%2C736%2C1917%2C1431%2C0_0&invitationId=inv_42728779-78df-4ccd-bc73-6d0818f30d24
 
+![Alt text](P1_database_design_chart.png)
+
 
 9) (2 PTS) Suppose you were asked if your database could also support the UVA SDS Residential MSDS Program. Explain any issues that might arise, changes to the database structure (schema), and new data that might be needed. Note you won’t actually need to support this use case for the project.
 
-The key concern would be accounting for a phyisical location. This would includes things like timings, buildings, room avaibility, classrom rtpe (i.e. computer lab or lecture hall) and capacity. 
+The key concern would be accounting for a physical location. This would include timings, buildings, room availability, classroom type (i.e. computer lab or lecture hall), and capacity. 
